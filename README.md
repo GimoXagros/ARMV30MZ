@@ -2,6 +2,12 @@
 
 NEC V30MZ emulator for ARM32.
 
+## This fork and integration
+
+This repository is the GimoXagros fork of [FluBBaOfWard/ARMV30MZ](https://github.com/FluBBaOfWard/ARMV30MZ). `V0.8.11` above is the core version in `Version.h`, not a standalone application release. This fork has no GitHub Release binaries.
+
+The custom [NitroSwan](https://github.com/GimoXagros/NitroSwan) build uses a pinned `source/ARMV30MZ` submodule commit, which can differ from this repository's `main`. Follow its [development guide](https://github.com/GimoXagros/NitroSwan/blob/main/Docs/DevelopmentGuide.md) and initialize recursive submodules at the selected release tag. Do not substitute the latest core branch when reproducing a published emulator build.
+
 ## About
 
 All opcodes should behave pretty much like the real deal in a WonderSwan.
